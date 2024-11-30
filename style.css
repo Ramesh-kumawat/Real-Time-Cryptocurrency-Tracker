@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafaf8; 
+    color: #333;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+body.dark-mode {
+    background-color: #121212;
+}
+
+header {
+    text-align: center;
+    background-color: #3b82f6; 
+    color: white;
+    padding: 1em 0;
+}
+
+header.dark-mode {
+    background-color: #1f1f1f;
+}
+
+#comparison.dark-mode {
+    background-color: #1e1e1e; 
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #1d4ed8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cryptos li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#comparison-table {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.crypto-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading-indicator {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #3b82f6;
+}
+
+.remove-btn {
+    background-color: #e3342f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #cc1f1a;
+}
+#cryptos {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.crypto-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px; 
+    text-align: center; 
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.crypto-box:hover {
+    transform: scale(1.05);
+}
+
+.crypto-icon {
+    width: 40px;
+    height: 40px; 
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #3b82f6; 
+    color: white; 
+    border: none; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05); 
+}
+
+button:focus {
+    outline: none;
+}
+
+#comparison-table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#comparison-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#comparison-table th, #comparison-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#comparison-table th {
+    background-color: #0d37f2;
+    color: #ffffff;
+}
+
+#comparison-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.crypto-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.table-action {
+    text-align: center;
+}
+
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #ff1a1a;
+}
+
+
+.crypto-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.crypto-box:hover {
+    transform: scale(1.05);
+    background-color: #f0f8ff; 
+.crypto-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.crypto-box:hover {
+    transform: scale(1.05);
+    background-color: #9de9fa;
+}
+
+#comparison {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#comparison h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#comparison-table {
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+#comparison-table table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+#comparison-table th, #comparison-table td {
+    padding: 12px; 
+    text-align: left; 
+}
+
+#comparison-table th {
+    background-color: #007bff; 
+    color: white; 
+}
+
+#comparison-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+#comparison-table tr:hover {
+    background-color: #e9ecef; 
+}
+
+.table-action {
+    text-align: center; 
+}
+
+.remove-btn {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+}
