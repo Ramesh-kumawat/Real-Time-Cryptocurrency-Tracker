@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Tracker</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Cryptocurrency Tracker</h1>
+        <button id="theme-toggle">Toggle Dark/Light Mode</button>
+    </header>
+
+    <main>
+        
+            <section id="crypto-container">
+                <div id="crypto-list">
+            <h2>Cryptocurrency Listing</h2>
+            <ul id="cryptos"></ul>
+            
+            <div class="row" id="cryptos"></div>
+        </div>
+        
+        </section>
+        <section id="loading-indicator" class="hidden">
+            <p>Loading...</p>
+        </section>
+        <section id="comparison">
+            <h2>Comparison Section</h2>
+            <div id="comparison-table">
+                <p>Select cryptocurrencies to compare them here.</p>
+            </div>
+        </section>
+
+        <section id="preferences">
+            <h2>User Preferences</h2>
+            <label>
+                <input type="checkbox" id="sort-by-market-cap" checked>
+                Sort by Market Cap
+            </label>
+        </section>
+    </main>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
